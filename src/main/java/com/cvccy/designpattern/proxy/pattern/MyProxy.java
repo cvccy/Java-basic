@@ -4,9 +4,9 @@ public class MyProxy {
 
     private RealSubject subject = new RealSubject();
 
-    public void doWork(){
+    public void optaion(){
         System.out.println("Preprocessor before targer method running.");
-        subject.doWork();
+        subject.optation();
         System.out.println("Postprocessor after target method running.");
     }
 

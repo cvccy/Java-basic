@@ -6,6 +6,6 @@ import com.cvccy.designpattern.proxy.pattern.Subject;
 public class Client {
     public static void main(String[] args) {
         Subject subject = new JdkDynamicProxy(new RealSubject()).getProxy();
-        subject.doWork();
+        subject.optation();
     }
 }

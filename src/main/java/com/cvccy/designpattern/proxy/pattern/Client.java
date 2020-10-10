@@ -5,6 +5,6 @@ public class Client {
     public static void main(String[] args) {
 
         MyProxy proxy = new MyProxy();
-        proxy.doWork();
+        proxy.optaion();
     }
 }
